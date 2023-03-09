@@ -1,4 +1,5 @@
 rootProject.name = 'match-prediction'
 include 'base'
 include 'service-domain'
+include 'api-server'
 

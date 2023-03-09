@@ -30,3 +30,8 @@ project('service-domain') {
         implementation project(path: ':base', configuration: 'default')
     }
 }
+project('api-server') {
+    dependencies {
+        implementation project(path: ':service-domain', configuration: 'default')
+    }
+}
